@@ -1,0 +1,91 @@
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.logo {
+    height: 60px;
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-right: 350px;
+}
+
+.menu {
+    color: white;
+    height: 20px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.search {
+    fill: white;
+    height: 35px;
+    width: 30px;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f2f2f;
+    height: 100%;
+    width: 100%;
+}
+
+.bkgPig {
+    position: absolute;
+    height: 700px;
+    width: 560px;
+    z-index: 0;
+}
+
+.effect {
+    position: absolute;
+    z-index: 1;
+    margin-left: 400px;
+    height: 710px;
+}
+
+.main-text {
+    position: relative;
+    z-index: 3;
+    height: 715px;
+    padding-right: 80px;
+}
+
+.title {
+    margin-top: 200px;
+    color: #ffc200;
+    font-size: 85px;
+}
+
+.text {
+    color: white;
+    font-size: 24px;
+    overflow: hidden;
+    width: 510px;
+    margin-top: 60px;
+    margin-bottom: 85px;
+}
+
+.button {
+    background: #ffc200;
+    color: black;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    padding: 4px 6px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
