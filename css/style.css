@@ -1,0 +1,291 @@
+body {
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.logo {
+    height: 80px;
+    width: 170px;
+    margin-top: 15px;
+    margin-left: 55px;
+    margin-right: 350px;
+}
+
+.menu {
+    color: white;
+    height: 20px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.search {
+    fill: white;
+    height: 35px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.conteiner-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f2f2f;
+    height: 100%;
+    width: 100%;
+}
+
+.bkgPig {
+    position: absolute;
+    height: 700px;
+    width: 560px;
+    z-index: 0;
+}
+
+.effect {
+    position: absolute;
+    z-index: 1;
+    margin-left: 400px;
+    height: 710px;
+}
+
+.main-text {
+    position: relative;
+    z-index: 3;
+    height: 715px;
+    padding-right: 80px;
+}
+
+.title {
+    margin-top: 200px;
+    color: #ffc200;
+    font-size: 85px;
+}
+
+.text {
+    color: white;
+    font-size: 24px;
+    overflow: hidden;
+    width: 510px;
+    margin-top: 60px;
+    margin-bottom: 85px;
+}
+
+.button {
+    background: #ffc200;
+    color: black;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    padding: 4px 6px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+}
+
+.bs-conteiner {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.bs-title {
+    font-size: 50px;
+    color: #2f2f2f;
+    text-align: center;
+}
+
+.bs-text {
+    overflow: hidden;
+    font-size: 18px;
+    color: #2f2f2f;
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 30px 100px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.products-img {
+    height: 240px;
+    width: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products-name {
+    font-size: 30px;
+    color: #2f2f2f;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.products-specification {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #2f2f2f;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 40px;
+    margin-bottom: 80px;
+}
+
+.taste {
+    display: flex;
+    justify-content: space-between;
+}
+
+.effect-2 {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 80%;
+}
+
+.taste-img {
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    height: 350px;
+    width: 350px;
+    margin-left: 80px;
+}
+
+.taste-conteiner {
+    margin-right: auto;
+    margin-left: 160px;
+}
+
+.taste-title {
+    position: relative;
+    z-index: 2;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 70px;
+    color: #ffc200;
+}
+
+.taste-text {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    overflow: hidden;
+    width: 515px;
+    color: white;
+    padding: 50px;
+}
+.b-taste {
+    margin-left: 80px;
+}
+
+.statistics {
+    margin-top: 100px;
+    background: #2f2f2f;
+    padding-bottom: 200px;
+}
+
+.statis-title {
+    color: #ffc200;
+    font-size: 70px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.statis-text {
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    width: 515px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+.statis-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 275px;
+}
+
+.statis-count {
+    color: #ffc200;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.statis-stuff {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+}
+
+.statis-border {
+    padding: 20px;
+    border-radius: 100%; 
+    border: 5px solid white; 
+    height: auto;
+    width: auto;
+}
+
+.grill {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.effect3 {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 50%;
+}
+
+.grill-list {
+    padding: 0 150px;
+}
+
+.grill-title {
+    font-size: 70px;
+    font-weight: lighter;
+    position: relative;
+    z-index:1;
+    color: #ffc200;
+    text-align: left;
+
+}
+
+.grill-text {
+    position: relative;
+    z-index:2;
+    color: white;
+    text-align: left;
+    overflow: hidden;
+    width: 500px;
+    padding: 40px 0;
+}
+.grill-img {
+    position: relative;
+    z-index:3;
+    height: 260px;
+    width: 260px;
+    margin-right: 150px;
+}
