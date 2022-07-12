@@ -289,3 +289,124 @@ body {
     width: 260px;
     margin-right: 150px;
 }
+
+.lenora {
+    position: relative;
+    background: #f5df19;
+    z-index: 1;
+}
+
+.lenora-bkg {
+    position: absolute;
+    z-index: 0;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+}
+
+.lenora-text {
+    position: relative;
+    color: black;
+    z-index: 2;
+    text-align: center;
+    overflow: hidden;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    font-size: 20px;
+}
+
+.lenora-title {
+    position: relative;
+    color: black;
+    font-size: 90px;
+    font-weight: lighter;
+    z-index: 3;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.subs {
+    background: #fafafa;
+    
+}
+
+.subs-title {
+    font-size: 70px;
+    color: #2f2f2f;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.subs-text {
+    font-size: 16px;
+    color: #2f2f2f;
+    text-align: center;
+    overflow: hidden;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+
+}
+
+.subs-form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.subs-email {
+    border: none;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 5px 0 0 5px;
+    padding: 10px 20px;
+    width: 340px;
+}
+
+.subs-button {
+    background-color: #ffc200;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0 5px 5px 0;   
+}
+
+.ft {
+    background-color: #2f2f2f;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 80px;
+}
+
+.ft-title {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.ft-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.ft-social {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 250px;
+}
+
+.ft-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+}
